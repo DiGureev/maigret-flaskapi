@@ -1,2 +1,3 @@
 maigret>=0.1.17
 flask>=3.0.0
+gunicorn>=19.7.1
