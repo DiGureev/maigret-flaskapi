@@ -64,6 +64,10 @@ async def search(username):
 
     # full found results data
     results = list(filter(lambda x: x['status'].status == QueryStatus.CLAIMED, list(results.values())))
+    
+    # replace object with real url
+    for obj in results:
+        obj['site'] = obj['site'].url_main
 
     return results
 
