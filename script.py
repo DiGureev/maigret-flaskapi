@@ -21,9 +21,7 @@ def setup_logger(log_level, name):
     return logger
 
 async def maigret_search(username):
-    """
-        Main Maigret search function
-    """
+
     logger = setup_logger(logging.WARNING, 'maigret')
 
     db = MaigretDatabase().load_from_path(MAIGRET_DB_FILE)
@@ -41,12 +39,7 @@ async def maigret_search(username):
 
 
 async def search(username):
-    """
-        Do Maigret search on a chosen username
-        :return:
-            - list of telegram messages
-            - list of dicts with found results data
-    """
+
     try:
         results = await maigret_search(username)
     except Exception as e:
@@ -55,12 +48,6 @@ async def search(username):
     found_exact_accounts = []
     general_results = []
     general_results.append((username, id_type, results))
-    report_context = generate_report_context(general_results)
-
-    # print(report_context)
-
-    # return report_context
-    # save_json_report(f"{username}_report.json", username, report_context, 'simple')
 
     for site, data in results.items():
         if data['status'].status != QueryStatus.CLAIMED:
@@ -75,7 +62,6 @@ async def search(username):
     if not found_exact_accounts:
         return [], []
 
-
     # full found results data
     results = list(filter(lambda x: x['status'].status == QueryStatus.CLAIMED, list(results.values())))
 
@@ -87,5 +73,3 @@ async def main(username):
   await task1
   result = task1.result()
   return result
-
-# if __name__ == "__main__":

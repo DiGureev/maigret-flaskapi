@@ -9,7 +9,6 @@ def home(username):
     result = asyncio.run(main(username))
     result1 = str(result)
     return jsonify(result1), 200
-    # return "Home"
 
 if __name__ == "__main__":
     app.run(debug=True)
