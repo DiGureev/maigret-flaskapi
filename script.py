@@ -10,7 +10,7 @@ COOKIES_FILE = "cookies.txt"  # wget https://raw.githubusercontent.com/soxoj/mai
 id_type = "username"
 
 # top popular sites from the Maigret database
-TOP_SITES_COUNT = 500
+TOP_SITES_COUNT = 450
 # Maigret HTTP requests timeout
 TIMEOUT = 30
 
