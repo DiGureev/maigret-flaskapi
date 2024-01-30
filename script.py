@@ -3,15 +3,14 @@ import asyncio
 import logging
 
 from maigret.result import QueryStatus
-from maigret.sites import MaigretDatabase, MaigretSite
-from maigret.report import save_json_report, generate_report_context
+from maigret.sites import MaigretDatabase
 
 MAIGRET_DB_FILE = 'data.json' # wget https://raw.githubusercontent.com/soxoj/maigret/main/maigret/resources/data.json
 COOKIES_FILE = "cookies.txt"  # wget https://raw.githubusercontent.com/soxoj/maigret/main/cookies.txt
 id_type = "username"
 
 # top popular sites from the Maigret database
-TOP_SITES_COUNT = 100
+TOP_SITES_COUNT = 500
 # Maigret HTTP requests timeout
 TIMEOUT = 30
 
@@ -35,6 +34,7 @@ async def maigret_search(username):
                                    id_type=id_type,
                                    cookies=COOKIES_FILE,
                                    )
+    
     return results
 
 
@@ -67,9 +67,14 @@ async def search(username):
     
     # replace object with real url
     for obj in results:
-        obj['site'] = obj['site'].url_main
-
-    return results
+        obj['site'] = obj['site'].json
+        del obj['future']
+        del obj['checker']
+        obj['status'] = obj['status'].json()
+    
+    data = dict(enumerate(results))
+    # data = json.dumps(results)
+    return data
 
 
 async def main(username):
