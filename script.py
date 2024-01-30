@@ -1,6 +1,7 @@
 import maigret
 import asyncio
 import logging
+import json
 
 from maigret.result import QueryStatus
 from maigret.sites import MaigretDatabase
@@ -73,7 +74,7 @@ async def search(username):
         obj['status'] = obj['status'].json()
     
     data = dict(enumerate(results))
-    # data = json.dumps(results)
+    data = json.dumps(results)
     return data
 
 
