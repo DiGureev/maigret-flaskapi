@@ -11,7 +11,7 @@ COOKIES_FILE = "cookies.txt"  # wget https://raw.githubusercontent.com/soxoj/mai
 id_type = "username"
 
 # top popular sites from the Maigret database
-TOP_SITES_COUNT = 50
+TOP_SITES_COUNT = 500
 # Maigret HTTP requests timeout
 TIMEOUT = 30
 
@@ -60,7 +60,7 @@ def generate_json_report(username: str, results: dict):
 
         all_json[sitename] = data
 
-        return all_json
+    return all_json
 
 
 async def search(username):
