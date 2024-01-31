@@ -1,12 +1,13 @@
-from flask import Flask, jsonify
+from flask import Flask
 from script import main
 import asyncio
 
 app = Flask(__name__)
 
-@app.route("/<username>")
-def home(username):
-    result = asyncio.run(main(username))
+@app.route("/<username>/<top>")
+def home(username, top):
+    top = int(top)
+    result = asyncio.run(main(username, top))
     return result, 200
 
 if __name__ == "__main__":

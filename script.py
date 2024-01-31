@@ -11,7 +11,7 @@ COOKIES_FILE = "cookies.txt"  # wget https://raw.githubusercontent.com/soxoj/mai
 id_type = "username"
 
 # top popular sites from the Maigret database
-TOP_SITES_COUNT = 500
+# TOP_SITES_COUNT = 50
 # Maigret HTTP requests timeout
 TIMEOUT = 30
 
@@ -20,13 +20,25 @@ def setup_logger(log_level, name):
     logger.setLevel(log_level)
     return logger
 
-async def maigret_search(username):
+async def maigret_search(username, top):
 
     logger = setup_logger(logging.WARNING, 'maigret')
 
     db = MaigretDatabase().load_from_path(MAIGRET_DB_FILE)
 
-    sites = db.ranked_sites_dict(top=TOP_SITES_COUNT)
+    #collect top100 anyway
+    top100sites = db.ranked_sites_dict(top=100)
+    #retrieve keys of top100 sites
+    top100keys = list(top100sites.keys())
+
+    #if top100 is our goal - leave everything as it is
+    if top == 100: 
+        sites = top100sites
+    #if not - collect top-500 and delete from this dictionary top100 keys
+    elif top > 100:
+        sites = db.ranked_sites_dict(top=500)
+        for k in top100keys:
+            del sites[k]
 
     results = await maigret.search(username=username,
                                    site_dict=sites,
@@ -63,10 +75,9 @@ def generate_json_report(username: str, results: dict):
     return all_json
 
 
-async def search(username):
-
+async def search(username, top):
     try:
-        results = await maigret_search(username)
+        results = await maigret_search(username, top)
     except Exception as e:
         return ['An error occurred, send username once again.'], []
 
@@ -75,8 +86,8 @@ async def search(username):
     return json_result
 
 
-async def main(username):
-  task1 = asyncio.create_task(search(username))
+async def main(username, top):
+  task1 = asyncio.create_task(search(username, top))
   await task1
   result = task1.result()
   return result
