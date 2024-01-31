@@ -1,0 +1,11 @@
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000029247FB6A60>
+Traceback (most recent call last):
+  File "C:\Users\dibag\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\dibag\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\dibag\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\dibag\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
