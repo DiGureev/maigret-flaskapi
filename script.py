@@ -11,7 +11,7 @@ COOKIES_FILE = "cookies.txt"  # wget https://raw.githubusercontent.com/soxoj/mai
 id_type = "username"
 
 # top popular sites from the Maigret database
-TOP_SITES_COUNT = 500
+# TOP_SITES_COUNT = 50
 # Maigret HTTP requests timeout
 TIMEOUT = 30
 
@@ -20,13 +20,25 @@ def setup_logger(log_level, name):
     logger.setLevel(log_level)
     return logger
 
-async def maigret_search(username):
+async def maigret_search(username, top):
 
     logger = setup_logger(logging.WARNING, 'maigret')
 
     db = MaigretDatabase().load_from_path(MAIGRET_DB_FILE)
 
-    sites = db.ranked_sites_dict(top=TOP_SITES_COUNT)
+    #collect top100 anyway
+    top100sites = db.ranked_sites_dict(top=100)
+    #retrieve keys of top100 sites
+    top100keys = list(top100sites.keys())
+
+    #if top100 is our goal - leave everything as it is
+    if top == 100: 
+        sites = top100sites
+    #if not - collect top-500 and delete from this dictionary top100 keys
+    elif top > 100:
+        sites = db.ranked_sites_dict(top=500)
+        for k in top100keys:
+            del sites[k]
 
     results = await maigret.search(username=username,
                                    site_dict=sites,
@@ -38,48 +50,44 @@ async def maigret_search(username):
     
     return results
 
+def generate_json_report(username: str, results: dict):
+    # is_report_per_line = report_type.startswith("ndjson")
+    all_json = {}
 
-async def search(username):
+    for sitename in results:
+        site_result = results[sitename]
+        # TODO: fix no site data issue
+        if not site_result or not site_result.get("status"):
+            continue
 
+        if site_result["status"].status != QueryStatus.CLAIMED:
+            continue
+
+        data = dict(site_result)
+        data["status"] = data["status"].json()
+        data["site"] = data["site"].json
+        for field in ["future", "checker"]:
+            if field in data:
+                del data[field]
+
+        all_json[sitename] = data
+
+    return all_json
+
+
+async def search(username, top):
     try:
-        results = await maigret_search(username)
+        results = await maigret_search(username, top)
     except Exception as e:
         return ['An error occurred, send username once again.'], []
 
-    found_exact_accounts = []
-    general_results = []
-    general_results.append((username, id_type, results))
+    json_result = generate_json_report(username, results)
 
-    for site, data in results.items():
-        if data['status'].status != QueryStatus.CLAIMED:
-            continue
-        url = data['url_user']
-        account_link = f'[{site}]({url})'
-
-        # filter inaccurate results
-        if not data.get('is_similar'):
-            found_exact_accounts.append(account_link)
-
-    if not found_exact_accounts:
-        return [], []
-
-    # full found results data
-    results = list(filter(lambda x: x['status'].status == QueryStatus.CLAIMED, list(results.values())))
-    
-    # replace object with real url
-    for obj in results:
-        obj['site'] = obj['site'].json
-        del obj['future']
-        del obj['checker']
-        obj['status'] = obj['status'].json()
-    
-    data = dict(enumerate(results))
-    data = json.dumps(results)
-    return data
+    return json_result
 
 
-async def main(username):
-  task1 = asyncio.create_task(search(username))
+async def main(username, top):
+  task1 = asyncio.create_task(search(username, top))
   await task1
   result = task1.result()
   return result
