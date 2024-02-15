@@ -20,6 +20,12 @@ def home(username, top):
         with open(f"./reports/{username}{top}.json", "w") as f:
             json.dump(result, f)
 
+    for key in result:
+        result[key] = {
+            "url_user": result[key]["url_user"],
+            "username": result[key]["username"]
+        }
+
     return result, 200
 
 if __name__ == "__main__":
