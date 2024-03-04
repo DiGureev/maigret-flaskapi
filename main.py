@@ -10,14 +10,14 @@ app = Flask(__name__)
 def home(username, top):
     top = int(top)
     
-    if os.path.exists(f"./reports/{username}{top}.json"):
+    if os.path.exists(f"./{username}{top}.json"):
         print("Exist")
-        with open(f"./reports/{username}{top}.json","r") as f:
+        with open(f"./{username}{top}.json","r") as f:
             result = json.load(f)
     else:
         print("Does not Exist")
         result = asyncio.run(main(username, top))
-        with open(f"./reports/{username}{top}.json", "w") as f:
+        with open(f"./{username}{top}.json", "w") as f:
             json.dump(result, f)
 
     for key in result:
