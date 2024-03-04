@@ -28,7 +28,7 @@ async def maigret_search(username, top):
     db = MaigretDatabase().load_from_path(MAIGRET_DB_FILE)
 
     #collect top100 anyway
-    sites = db.ranked_sites_dict(top=5000)
+    sites = db.ranked_sites_dict(top=3080)
     #retrieve keys of top100 sites
     top5000keys = list(sites.keys())
 
