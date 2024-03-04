@@ -2,6 +2,7 @@ import maigret
 import asyncio
 import logging
 import json
+import requests
 
 from maigret.result import QueryStatus
 from maigret.sites import MaigretDatabase
@@ -27,18 +28,35 @@ async def maigret_search(username, top):
     db = MaigretDatabase().load_from_path(MAIGRET_DB_FILE)
 
     #collect top100 anyway
-    top100sites = db.ranked_sites_dict(top=100)
+    sites = db.ranked_sites_dict(top=3080)
     #retrieve keys of top100 sites
-    top100keys = list(top100sites.keys())
+    top5000keys = list(sites.keys())
 
-    #if top100 is our goal - leave everything as it is
+    def delKeys(check_top):
+        for key in top5000keys:
+            if key not in check_top:
+                del sites[key]
     if top == 100: 
-        sites = top100sites
-    #if not - collect top-500 and delete from this dictionary top100 keys
-    elif top > 100:
-        sites = db.ranked_sites_dict(top=500)
-        for k in top100keys:
-            del sites[k]
+        top100keys = top5000keys[0:100]
+        delKeys(top100keys)
+    if top == 500: 
+        top500keys = top5000keys[100:500]
+        delKeys(top500keys)
+    if top == 1000:
+        top500keys = top5000keys[500:1000]
+        delKeys(top500keys)
+    if top == 1500:
+        top500keys = top5000keys[1000:1500]
+        delKeys(top500keys)
+    if top == 2000:
+        top500keys = top5000keys[1500:2000]
+        delKeys(top500keys)
+    if top == 2500:
+        top500keys = top5000keys[2000:2500]
+        delKeys(top500keys)
+    if top == 3000:
+        top500keys = top5000keys[2500:-1]
+        delKeys(top500keys)
 
     results = await maigret.search(username=username,
                                    site_dict=sites,
