@@ -40,22 +40,22 @@ async def maigret_search(username, top):
         top100keys = top5000keys[0:100]
         delKeys(top100keys)
     if top == 500: 
-        top500keys = top5000keys[100:501]
+        top500keys = top5000keys[100:500]
         delKeys(top500keys)
     if top == 1000:
-        top500keys = top5000keys[501:1000]
+        top500keys = top5000keys[500:1000]
         delKeys(top500keys)
     if top == 1500:
-        top500keys = top5000keys[1001:1501]
+        top500keys = top5000keys[1000:1500]
         delKeys(top500keys)
     if top == 2000:
-        top500keys = top5000keys[1501:2001]
+        top500keys = top5000keys[1500:2000]
         delKeys(top500keys)
     if top == 2500:
-        top500keys = top5000keys[2001:2501]
+        top500keys = top5000keys[2000:2500]
         delKeys(top500keys)
     if top == 3000:
-        top500keys = top5000keys[2501:-1]
+        top500keys = top5000keys[2500:-1]
         delKeys(top500keys)
 
     results = await maigret.search(username=username,
