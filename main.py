@@ -33,6 +33,9 @@ def home(username, top):
         result = asyncio.run(main(username, top))
 
         writeFile(username, result)
+    elif top != 100 and os.path.exists(f"./{username}.json"):
+        print("Top is not 100, but file exists")
+        result = {}
     else:
         print("Top is not 100")
         exist_object = readFile(username)
