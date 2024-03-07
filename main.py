@@ -33,9 +33,6 @@ def home(username, top):
         result = asyncio.run(main(username, top))
 
         writeFile(username, result)
-    elif top != 100 and os.path.exists(f"./{username}.json"):
-        print("Top is not 100, but file exists")
-        result = {}
     else:
         print("Top is not 100")
         exist_object = readFile(username)
@@ -43,14 +40,20 @@ def home(username, top):
 
         for key, value in result.items():
             exist_object[key] = value
+
+        if top == 500:
+            exist_object['fulfilled'] = 'true'
         
         writeFile(username, exist_object)
         
-    for key in result:
-        result[key] = {
-            "url_user": result[key]["url_user"],
-            "username": result[key]["username"]
-        }
+    for key, value in result.items():
+        if key == 'fulfilled':
+            result[key] = value
+        else:
+            result[key] = {
+                "url_user": result[key]["url_user"],
+                "username": result[key]["username"]
+            }
 
     return result, 200
 
