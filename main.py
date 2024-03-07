@@ -22,40 +22,40 @@ def writeFile(username, object):
 def home(username, top):
     top = int(top)
 
-    result = {}
+    result_object = {
+                "sites": {}
+            }
     
     if top == 100 and os.path.exists(f"./{username}.json"):
         print("Exist")
-        result = readFile(username)
+        result_object = readFile(username)
     elif top == 100 and os.path.exists(f"./{username}.json") == False:
         print("Does not Exist")
 
-        result = asyncio.run(main(username, top))
+        result_object["sites"] = asyncio.run(main(username, top))
 
-        writeFile(username, result)
+        writeFile(username, result_object)
     else:
         print("Top is not 100")
         exist_object = readFile(username)
-        result = asyncio.run(main(username, top))
 
-        for key, value in result.items():
-            exist_object[key] = value
+        result_object["sites"]  = asyncio.run(main(username, top))
+
+        for key, value in result_object["sites"].items():
+            exist_object["sites"][key] = value
 
         if top == 500:
-            exist_object['fulfilled'] = 'true'
+            exist_object["fulfilled"] = "true"
         
         writeFile(username, exist_object)
         
-    for key, value in result.items():
-        if key == 'fulfilled':
-            result[key] = value
-        else:
-            result[key] = {
-                "url_user": result[key]["url_user"],
-                "username": result[key]["username"]
-            }
+    for key, value in result_object["sites"].items():
+        result_object["sites"][key] = {
+            "url_user": result_object["sites"][key]["url_user"],
+            "username": result_object["sites"][key]["username"]
+        }
 
-    return result, 200
+    return result_object, 200
 
 if __name__ == "__main__":
     app.run(debug=True)
