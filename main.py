@@ -6,6 +6,10 @@ import asyncio
 
 app = Flask(__name__)
 
+@app.route('/favicon.ico')
+def checkFav():
+    return {}, 200
+
 @app.route("/<username>/<top>")
 def home(username, top):
     top = int(top)
