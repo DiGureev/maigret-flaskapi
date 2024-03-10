@@ -491,20 +491,6 @@
         "usernameClaimed": "adam",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "AllRecipes": {
-        "tags": [
-          "us"
-        ],
-        "checkType": "message",
-        "absenceStrs": [
-          "<title>Allrecipes Member | Allrecipes</title>"
-        ],
-        "alexaRank": 983,
-        "urlMain": "https://www.allrecipes.com/",
-        "url": "https://www.allrecipes.com/cook/{username}",
-        "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Allhockey": {
         "tags": [
           "ru"
@@ -2903,20 +2889,6 @@
         "usernameClaimed": "adam",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Computerbase": {
-        "tags": [
-          "de"
-        ],
-        "checkType": "message",
-        "absenceStrs": [
-          "Das gewünschte Mitglied kann nicht gefunden werden"
-        ],
-        "alexaRank": 8982,
-        "urlMain": "https://www.computerbase.de",
-        "url": "https://www.computerbase.de/forum/members/?username={username}",
-        "usernameClaimed": "red",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Connosr": {
         "tags": [
           "gb"
@@ -3029,22 +3001,6 @@
         "urlMain": "https://cfire.mail.ru",
         "url": "https://cfire.mail.ru/forums/member.php?username={username}",
         "usernameClaimed": "wizard",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Crunchyroll": {
-        "tags": [
-          "forum",
-          "movies",
-          "us"
-        ],
-        "headers": {
-          "'User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0"
-        },
-        "checkType": "status_code",
-        "alexaRank": 364,
-        "urlMain": "https://www.crunchyroll.com/",
-        "url": "https://www.crunchyroll.com/user/{username}",
-        "usernameClaimed": "adan",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "CryptomatorForum": {
@@ -6515,17 +6471,6 @@
         "usernameClaimed": "green",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "InfosecInstitute": {
-        "tags": [
-          "us"
-        ],
-        "checkType": "status_code",
-        "alexaRank": 15970,
-        "urlMain": "https://community.infosecinstitute.com",
-        "url": "https://community.infosecinstitute.com/profile/{username}",
-        "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Infourok": {
         "tags": [
           "ru"
@@ -7535,19 +7480,6 @@
         "usernameClaimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis"
       },
-      "LiveLib": {
-        "tags": [
-          "books",
-          "reading",
-          "ru"
-        ],
-        "checkType": "status_code",
-        "alexaRank": 4524,
-        "urlMain": "https://www.livelib.ru/",
-        "url": "https://www.livelib.ru/reader/{username}",
-        "usernameClaimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "LiveTrack24": {
         "checkType": "message",
         "presenseStrs": [
@@ -7623,23 +7555,6 @@
         "urlMain": "https://lobste.rs/",
         "url": "https://lobste.rs/u/{username}",
         "usernameClaimed": "jcs",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Lolchess": {
-        "tags": [
-          "kr"
-        ],
-        "headers": {
-          "accept-language": "en-US,en;q=0.9,es;q=0.8"
-        },
-        "checkType": "message",
-        "absenceStrs": [
-          "No search results"
-        ],
-        "alexaRank": 4911,
-        "urlMain": "https://lolchess.gg/",
-        "url": "https://lolchess.gg/profile/na/{username}",
-        "usernameClaimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "LonelyPlanet": {
@@ -8261,17 +8176,6 @@
         "alexaRank": 2924330,
         "urlMain": "http://www.microchip.su",
         "usernameClaimed": "nightavenger",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "MicrosoftTechNet": {
-        "tags": [
-          "us"
-        ],
-        "checkType": "status_code",
-        "alexaRank": 21,
-        "urlMain": "https://social.technet.microsoft.com",
-        "url": "https://social.technet.microsoft.com/profile/{username}/",
-        "usernameClaimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Minecraft-statistic": {
@@ -11570,20 +11474,6 @@
         "urlMain": "https://schlock.ru/",
         "url": "https://schlock.ru/author/{username}",
         "usernameClaimed": "red",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Scorcher": {
-        "tags": [
-          "ru"
-        ],
-        "checkType": "message",
-        "absenceStrs": [
-          "This user has not registered and therefore does not have a profile to view."
-        ],
-        "alexaRank": 7639,
-        "urlMain": "https://www.glavbukh.ru",
-        "url": "https://www.glavbukh.ru/forum/member.php/?username={username}",
-        "usernameClaimed": "poli888",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Scoutwiki": {
@@ -16505,19 +16395,6 @@
         "alexaRank": 1272,
         "urlMain": "https://forums.drom.ru/",
         "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "forums.ea.com": {
-        "tags": [
-          "forum",
-          "gaming",
-          "us"
-        ],
-        "checkType": "status_code",
-        "alexaRank": 610,
-        "urlMain": "https://forums.ea.com",
-        "url": "https://forums.ea.com/en/nhl/profile/discussions/{username}",
-        "usernameClaimed": "red",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "forums.eagle.ru": {
@@ -23085,17 +22962,6 @@
         "usernameClaimed": "alex",
         "alexaRank": 2079
       },
-      "banki.ru": {
-        "tags": [
-          "ru"
-        ],
-        "engine": "engine404",
-        "urlMain": "https://banki.ru",
-        "url": "https://banki.ru/blog/{username}/",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex",
-        "alexaRank": 3616
-      },
       "Basecamphq": {
         "tags": [
           "us"
@@ -23188,17 +23054,6 @@
         "usernameClaimed": "alex",
         "alexaRank": 264688
       },
-      "linktr.ee": {
-        "tags": [
-          "links"
-        ],
-        "engine": "engine404",
-        "urlMain": "https://linktr.ee",
-        "url": "https://linktr.ee/{username}",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "red",
-        "alexaRank": 134
-      },
       "jsfiddle.net": {
         "tags": [
           "coding",
@@ -23232,17 +23087,6 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "alex",
         "alexaRank": 36379
-      },
-      "social.msdn.microsoft.com": {
-        "tags": [
-          "us"
-        ],
-        "engine": "engine404",
-        "urlMain": "https://social.msdn.microsoft.com",
-        "url": "https://social.msdn.microsoft.com/profile/{username}",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex",
-        "alexaRank": 19
       },
       "selly.gg": {
         "engine": "engine404",
