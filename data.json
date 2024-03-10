@@ -311,20 +311,6 @@
         "usernameClaimed": "trotter",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "AMUR": {
-        "tags": [
-          "dating",
-          "ru"
-        ],
-        "checkType": "message",
-        "absenceStrs": [
-          " не найдено!"
-        ],
-        "urlMain": "https://apteka.ee",
-        "url": "https://apteka.ee/user/id/{username}/",
-        "usernameClaimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "About.me": {
         "tags": [
           "blog",
@@ -1828,21 +1814,6 @@
         "usernameClaimed": "white",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "BitCoinForum": {
-        "tags": [
-          "forum",
-          "in"
-        ],
-        "checkType": "message",
-        "absenceStrs": [
-          "The user whose profile you are trying to view does not exist."
-        ],
-        "alexaRank": 205800,
-        "urlMain": "https://bitcoinforum.com",
-        "url": "https://bitcoinforum.com/profile/{username}",
-        "usernameClaimed": "bitcoinforum.com",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Bitwarden": {
         "checkType": "message",
         "absenceStrs": [
@@ -2151,18 +2122,6 @@
         "url": "https://buzzfeed.com/{username}",
         "usernameClaimed": "blue",
         "usernameUnclaimed": "xgtrq"
-      },
-      "Buzznet": {
-        "checkType": "message",
-        "presenseStrs": [
-          "<title>Author:"
-        ],
-        "absenceStrs": [
-          "The page you are looking for can't be found."
-        ],
-        "url": "https://www.buzznet.com/author/{username}/",
-        "usernameClaimed": "karynbailey",
-        "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Byte": {
         "tags": [
@@ -4603,21 +4562,6 @@
         "usernameClaimed": "adam",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Fm-forum": {
-        "tags": [
-          "forum",
-          "ru"
-        ],
-        "checkType": "message",
-        "absenceStrs": [
-          "<title>Информация</title>"
-        ],
-        "alexaRank": 1027372,
-        "urlMain": "https://fm-forum.ru",
-        "url": "https://fm-forum.ru/search.php?action=search&keywords=&author={username}",
-        "usernameClaimed": "nikita",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Folkd": {
         "tags": [
           "eu",
@@ -4930,17 +4874,6 @@
         "urlMain": "https://foursquare.com/",
         "url": "https://foursquare.com/{username}",
         "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Fozo": {
-        "tags": [
-          "ru"
-        ],
-        "checkType": "status_code",
-        "alexaRank": 619848,
-        "urlMain": "https://fozo.info/",
-        "url": "https://fozo.info/user/{username}/",
-        "usernameClaimed": "%D0%A8%D0%98%D0%9A",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Fredmiranda": {
@@ -7904,22 +7837,6 @@
         "usernameClaimed": "adam",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Maxpark": {
-        "tags": [
-          "news",
-          "ru"
-        ],
-        "checkType": "message",
-        "absenceStrs": [
-          "ОШИБКА 50x",
-          "ОШИБКА 404"
-        ],
-        "alexaRank": 66775,
-        "urlMain": "https://maxpark.com",
-        "url": "https://maxpark.com/user/{username}",
-        "usernameClaimed": "red",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Mbclub": {
         "tags": [
           "ru"
@@ -10036,19 +9953,7 @@
         "usernameClaimed": "nikola",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Pokecommunity": {
-        "tags": [
-          "de",
-          "forum",
-          "gb",
-          "us"
-        ],
-        "engine": "vBulletin",
-        "alexaRank": 50851,
-        "urlMain": "https://www.pokecommunity.com",
-        "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
+      
       "Pokemon Showdown": {
         "tags": [
           "us"
@@ -10936,17 +10841,6 @@
         "alexaRank": 930728,
         "urlMain": "https://www.religiousforums.com",
         "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "RenaultFanClub": {
-        "tags": [
-          "forum",
-          "tr"
-        ],
-        "engine": "vBulletin",
-        "alexaRank": 410980,
-        "urlMain": "http://www.renaultfanclub.com",
-        "usernameClaimed": "mashar",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Repl.it": {
@@ -12170,17 +12064,7 @@
         "usernameClaimed": "3Tau",
         "usernameUnclaimed": "noonewould"
       },
-      "SpiceWorks": {
-        "checkType": "status_code",
-        "urlMain": "https://community.spiceworks.co",
-        "url": "https://community.spiceworks.com/people/{username}",
-        "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "tags": [
-          "forum",
-          "tech"
-        ]
-      },
+      
       "Splice": {
         "checkType": "status_code",
         "url": "https://splice.com/{username}",
@@ -13251,21 +13135,6 @@
         "urlMain": "https://qna.habr.com/",
         "url": "https://qna.habr.com/user/{username}",
         "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "TotalStavki": {
-        "ignore403": true,
-        "tags": [
-          "ru"
-        ],
-        "checkType": "message",
-        "absenceStrs": [
-          "Указанный пользователь не найден"
-        ],
-        "alexaRank": 4592979,
-        "urlMain": "https://totalstavki.ru",
-        "url": "https://totalstavki.ru/forum/members/?username={username}",
-        "usernameClaimed": "turbo",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Totseans": {
@@ -14972,20 +14841,6 @@
         "usernameClaimed": "20vpvmmwpnwyb0dpbnjvy3k14c",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "YandexBugbounty": {
-        "tags": [
-          "hacking",
-          "ru"
-        ],
-        "checkType": "status_code",
-        "alexaRank": 50,
-        "urlMain": "https://yandex.ru/bugbounty/",
-        "url": "https://yandex.ru/bugbounty/researchers/{username}/",
-        "source": "Yandex",
-        "usernameClaimed": "pyrk1",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "disabled": true
-      },
       "YandexCollections API": {
         "tags": [
           "ru",
@@ -15115,18 +14970,6 @@
         "source": "Yandex",
         "usernameClaimed": "20vpvmmwpnwyb0dpbnjvy3k14c",
         "usernameUnclaimed": "noonewouldeverusethis77777"
-      },
-      "Yazbel": {
-        "tags": [
-          "forum"
-        ],
-        "checkType": "message",
-        "absenceStrs": [
-          "Hay aksi! Bu sayfa yok ya da gizli."
-        ],
-        "url": "https://forum.yazbel.com/u/{username}/summary",
-        "usernameClaimed": "abdullah189",
-        "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "YouNow": {
         "tags": [
@@ -15744,18 +15587,6 @@
         "urlMain": "https://club.7ya.ru",
         "url": "https://club.7ya.ru/{username}/",
         "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "club.cnews.ru": {
-        "tags": [
-          "blog",
-          "ru"
-        ],
-        "checkType": "status_code",
-        "alexaRank": 19671,
-        "urlMain": "https://club.cnews.ru/",
-        "url": "https://club.cnews.ru/{username}",
-        "usernameClaimed": "red",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "clubsnap.com": {
@@ -16436,17 +16267,6 @@
         "alexaRank": 17632,
         "urlMain": "https://forums.overclockers.co.uk",
         "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "forums.sailboatowners.com": {
-        "tags": [
-          "forum",
-          "us"
-        ],
-        "engine": "XenForo",
-        "alexaRank": 182197,
-        "urlMain": "http://forums.sailboatowners.com",
-        "usernameClaimed": "alex",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "forums.serebii.net": {
@@ -23832,16 +23652,7 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "alexaRank": 11324976
       },
-      "slivsklad.ru": {
-        "tags": [
-          "forum",
-          "ru"
-        ],
-        "engine": "XenForo",
-        "urlMain": "https://slivsklad.ru",
-        "usernameClaimed": "alex",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
+      
       "slivap.ru": {
         "tags": [
           "forum",
@@ -25638,16 +25449,6 @@
           "ru"
         ],
         "alexaRank": 826751
-      },
-      "forum.dusterclub.ru": {
-        "urlMain": "http://forum.dusterclub.ru",
-        "engine": "vBulletin",
-        "usernameClaimed": "alex",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "tags": [
-          "forum"
-        ],
-        "alexaRank": 1786891
       },
       "openssource.info": {
         "urlMain": "https://openssource.info",
@@ -28000,12 +27801,6 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "url": "https://mintme.com/token/{username}"
       },
-      "modelhub.com": {
-        "checkType": "status_code",
-        "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "url": "https://modelhub.com/{username}/videos"
-      },
       "monoskop.org": {
         "checkType": "status_code",
         "usernameClaimed": "adam",
@@ -29328,28 +29123,6 @@
           "streaming"
         ]
       },
-      "breakers.tv": {
-        "absenceStrs": [
-          "Channel Not Found -  Breakers.TV"
-        ],
-        "presenseStrs": [
-          "profile",
-          "copy_username",
-          "View Profile",
-          "copy_username_chat",
-          "chatterUserBoxName"
-        ],
-        "url": "https://breakers.tv/{username}",
-        "urlMain": "https://breakers.tv",
-        "usernameClaimed": "friendlyboxbreaks",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "checkType": "message",
-        "alexaRank": 987478,
-        "tags": [
-          "streaming",
-          "us"
-        ]
-      },
       "AfreecaTV": {
         "absenceStrs": [
           "Blog does not exist."
@@ -29509,15 +29282,6 @@
         "checkType": "status_code",
         "url": "https://aetherhub.com/User/{username}",
         "usernameClaimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis12"
-      },
-      "bugbounty": {
-        "tags": [
-          "hacking"
-        ],
-        "checkType": "status_code",
-        "url": "https://bugbounty.gg/members/{username}",
-        "usernameClaimed": "marco",
         "usernameUnclaimed": "noonewouldeverusethis12"
       },
       "fragment.com": {
