@@ -6,56 +6,27 @@ import asyncio
 
 app = Flask(__name__)
 
-def readFile(username):
-    result = {}
-    with open(f"./{username}.json","r") as f:
-        result = json.load(f)
-    return result
-
-def writeFile(username, object):
-    with open(f"./{username}.json", "w") as f:
-        json.dump(object, f)
-    return
-
-
 @app.route("/<username>/<top>")
 def home(username, top):
     top = int(top)
-
-    result_object = {
-                "sites": {}
-            }
     
-    if top == 100 and os.path.exists(f"./{username}.json"):
+    if os.path.exists(f"./{username}{top}.json"):
         print("Exist")
-        result_object = readFile(username)
-    elif top == 100 and os.path.exists(f"./{username}.json") == False:
-        print("Does not Exist")
-
-        result_object["sites"] = asyncio.run(main(username, top))
-
-        writeFile(username, result_object)
+        with open(f"./{username}{top}.json","r") as f:
+            result = json.load(f)
     else:
-        print("Top is not 100")
-        exist_object = readFile(username)
+        print("Does not Exist")
+        result = asyncio.run(main(username, top))
+        with open(f"./{username}{top}.json", "w") as f:
+            json.dump(result, f)
 
-        result_object["sites"]  = asyncio.run(main(username, top))
-
-        for key, value in result_object["sites"].items():
-            exist_object["sites"][key] = value
-
-        if top == 500:
-            exist_object["fulfilled"] = "true"
-        
-        writeFile(username, exist_object)
-        
-    for key, value in result_object["sites"].items():
-        result_object["sites"][key] = {
-            "url_user": result_object["sites"][key]["url_user"],
-            "username": result_object["sites"][key]["username"]
+    for key in result:
+        result[key] = {
+            "url_user": result[key]["url_user"],
+            "username": result[key]["username"]
         }
 
-    return result_object, 200
+    return result, 200
 
 if __name__ == "__main__":
     app.run(debug=True)
