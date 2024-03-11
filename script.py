@@ -36,6 +36,7 @@ async def maigret_search(username, top):
         for key in top5000keys:
             if key not in check_top:
                 del sites[key]
+
     if top == 100: 
         top100keys = top5000keys[0:100]
         delKeys(top100keys)
