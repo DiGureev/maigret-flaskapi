@@ -28608,60 +28608,10 @@
         "username_claimed": "pink",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "AllMyLinks": {
-        "regexCheck": "^[a-z0-9][a-z0-9-]{2,32}$",
-        "url": "https://allmylinks.com/{username}",
-        "urlMain": "https://allmylinks.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Apple Developer": {
-        "url": "https://developer.apple.com/forums/profile/{username}",
-        "urlMain": "https://developer.apple.com",
-        "username_claimed": "lio24d",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Apple Discussions": {
-        "url": "https://discussions.apple.com/profile/{username}",
-        "urlMain": "https://discussions.apple.com",
-        "username_claimed": "jason",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Archive of Our Own": {
-        "url": "https://archiveofourown.org/users/{username}",
-        "urlMain": "https://archiveofourown.org/",
-        "username_claimed": "test",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "BiggerPockets": {
-        "url": "https://www.biggerpockets.com/users/{username}",
-        "urlMain": "https://www.biggerpockets.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "BioHacking": {
-        "url": "https://forum.dangerousthings.com/u/{username}",
-        "urlMain": "https://forum.dangerousthings.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "BitCoinForum": {
         "url": "https://bitcoinforum.com/profile/{username}",
         "urlMain": "https://bitcoinforum.com",
         "username_claimed": "bitcoinforum.com",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Bitwarden Forum": {
-        "regexCheck": "^(?![.-])[a-zA-Z0-9_.-]{3,20}$",
-        "url": "https://community.bitwarden.com/u/{username}/summary",
-        "urlMain": "https://bitwarden.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "BraveCommunity": {
-        "url": "https://community.brave.com/u/{username}/",
-        "urlMain": "https://community.brave.com/",
-        "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "CGTrader": {
@@ -28676,36 +28626,6 @@
         "username_claimed": "briggs",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Caddy Community": {
-        "url": "https://caddy.community/u/{username}/summary",
-        "urlMain": "https://caddy.community/",
-        "username_claimed": "taako_magnusen",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Car Talk Community": {
-        "url": "https://community.cartalk.com/u/{username}/summary",
-        "urlMain": "https://community.cartalk.com/",
-        "username_claimed": "always_fixing",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Career.habr": {
-        "url": "https://career.habr.com/{username}",
-        "urlMain": "https://career.habr.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Chaos": {
-        "url": "https://chaos.social/@{username}",
-        "urlMain": "https://chaos.social/",
-        "username_claimed": "ordnung",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Choice Community": {
-        "url": "https://choice.community/u/{username}/summary",
-        "urlMain": "https://choice.community/",
-        "username_claimed": "gordon",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Clubhouse": {
         "url": "https://www.clubhouse.com/@{username}",
         "urlMain": "https://www.clubhouse.com",
@@ -28718,48 +28638,16 @@
         "username_claimed": "bob",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Codeforces": {
-        "url": "https://codeforces.com/profile/{username}",
-        "urlMain": "https://codeforces.com/",
-        "urlProbe": "https://codeforces.com/api/user.info?handles={}",
-        "username_claimed": "tourist",
-        "username_unclaimed": "noonewouldeverusethis7",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Coinvote": {
         "url": "https://coinvote.cc/profile/{username}",
         "urlMain": "https://coinvote.cc/",
         "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Cryptomator Forum": {
-        "url": "https://community.cryptomator.org/u/{username}",
-        "urlMain": "https://community.cryptomator.org/",
-        "username_claimed": "michael",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Cults3D": {
-        "url": "https://cults3d.com/en/users/{username}/creations",
-        "urlMain": "https://cults3d.com/en",
-        "username_claimed": "brown",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "DMOJ": {
         "url": "https://dmoj.ca/user/{username}",
         "urlMain": "https://dmoj.ca/",
         "username_claimed": "junferno",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Eintracht Frankfurt Forum": {
-        "url": "https://community.eintracht.de/fans/{username}",
-        "urlMain": "https://community.eintracht.de/",
-        "username_claimed": "mmammu",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Envato Forum": {
-        "url": "https://forums.envato.com/u/{username}",
-        "urlMain": "https://forums.envato.com/",
-        "username_claimed": "enabled",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Erome": {
@@ -28780,76 +28668,10 @@
         "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Forum Ophilia": {
-        "url": "https://www.forumophilia.com/profile.php?mode=viewprofile&u={username}",
-        "urlMain": "https://www.forumophilia.com/",
-        "username_claimed": "bob",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Freelancer": {
-        "url": "https://www.freelancer.com/u/{username}",
-        "urlMain": "https://www.freelancer.com/",
-        "urlProbe": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D={}&compact=true",
-        "username_claimed": "red0xff",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "G2G": {
-        "errorUrl": "https://www.g2g.com/{}",
-        "regexCheck": "^[A-Za-z][A-Za-z0-9_]{2,11}$",
-        "url": "https://www.g2g.com/{username}",
-        "urlMain": "https://www.g2g.com/",
-        "username_claimed": "user",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "GNOME VCS": {
-        "errorUrl": "https://gitlab.gnome.org/{}",
-        "regexCheck": "^(?!-)[a-zA-Z0-9_.-]{2,255}(?<!\\.)$",
-        "url": "https://gitlab.gnome.org/{username}",
-        "urlMain": "https://gitlab.gnome.org/",
-        "username_claimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "GeeksforGeeks": {
         "url": "https://auth.geeksforgeeks.org/user/{username}",
         "urlMain": "https://www.geeksforgeeks.org/",
         "username_claimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Genius (Artists)": {
-        "url": "https://genius.com/artists/{username}",
-        "urlMain": "https://genius.com/",
-        "username_claimed": "genius",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Genius (Users)": {
-        "url": "https://genius.com/{username}",
-        "urlMain": "https://genius.com/",
-        "username_claimed": "genius",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "GetMyUni": {
-        "url": "https://www.getmyuni.com/user/{username}",
-        "urlMain": "https://getmyuni.com/",
-        "username_claimed": "Upneet.Grover17",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Giant Bomb": {
-        "url": "https://www.giantbomb.com/profile/{username}/",
-        "urlMain": "https://www.giantbomb.com/",
-        "username_claimed": "bob",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Giphy": {
-        "url": "https://giphy.com/{username}",
-        "urlMain": "https://giphy.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "GitBook": {
-        "regexCheck": "^[a-zA-Z0-9@_-]$",
-        "url": "https://{username}.gitbook.io/",
-        "urlMain": "https://gitbook.com/",
-        "username_claimed": "gitbook",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Gitee": {
@@ -28858,46 +28680,11 @@
         "username_claimed": "wizzer",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Google Play": {
-        "url": "https://play.google.com/store/apps/developer?id={username}",
-        "urlMain": "https://play.google.com",
-        "username_claimed": "GitHub",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "HEXRPG": {
-        "regexCheck": "^[a-zA-Z0-9_ ]{3,20}$",
-        "url": "https://www.hexrpg.com/userinfo/{username}",
-        "urlMain": "https://www.hexrpg.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "HackerEarth": {
-        "url": "https://hackerearth.com/@{username}",
-        "urlMain": "https://hackerearth.com/",
-        "username_claimed": "naveennamani877",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Hashnode": {
-        "url": "https://hashnode.com/@{username}",
-        "urlMain": "https://hashnode.com",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Holopin": {
-        "request_method": "POST",
-        "request_payload": {
-          "username": "{}"
-        },
         "url": "https://holopin.io/@{username}",
         "urlMain": "https://holopin.io",
         "urlProbe": "https://www.holopin.io/api/auth/username",
         "username_claimed": "red",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Icons8 Community": {
-        "url": "https://community.icons8.com/u/{username}/summary",
-        "urlMain": "https://community.icons8.com/",
-        "username_claimed": "thefourCraft",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Image Fap": {
@@ -28906,61 +28693,10 @@
         "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Ionic Forum": {
-        "url": "https://forum.ionicframework.com/u/{username}",
-        "urlMain": "https://forum.ionicframework.com/",
-        "username_claimed": "theblue222",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Itemfix": {
-        "url": "https://www.itemfix.com/c/{username}",
-        "urlMain": "https://www.itemfix.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Joplin Forum": {
-        "url": "https://discourse.joplinapp.org/u/{username}",
-        "urlMain": "https://discourse.joplinapp.org/",
-        "username_claimed": "laurent",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Linktree": {
         "url": "https://linktr.ee/{username}",
         "urlMain": "https://linktr.ee/",
         "username_claimed": "anne",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Listed": {
-        "errorUrl": "https://listed.to/@{}",
-        "url": "https://listed.to/@{username}",
-        "urlMain": "https://listed.to/",
-        "username_claimed": "listed",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "LottieFiles": {
-        "url": "https://lottiefiles.com/{username}",
-        "urlMain": "https://lottiefiles.com/",
-        "username_claimed": "lottiefiles",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "LushStories": {
-        "url": "https://www.lushstories.com/profile/{username}",
-        "urlMain": "https://www.lushstories.com/",
-        "username_claimed": "chris_brown",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Mapify": {
-        "errorUrl": "https://mapify.travel/{}",
-        "url": "https://mapify.travel/{username}",
-        "urlMain": "https://mapify.travel/",
-        "username_claimed": "mapify",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Minecraft": {
-        "errorCode": 204,
-        "url": "https://api.mojang.com/users/profiles/minecraft/{username}",
-        "urlMain": "https://minecraft.net/",
-        "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Modelhub": {
@@ -28983,31 +28719,10 @@
         "username_claimed": "elhadidy12398",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Nightbot": {
-        "url": "https://nightbot.tv/t/{username}/commands",
-        "urlMain": "https://nightbot.tv/",
-        "urlProbe": "https://api.nightbot.tv/1/channels/t/{}",
-        "username_claimed": "green",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Ninja Kiwi": {
-        "errorUrl": "https://ninjakiwi.com/profile/{}",
-        "url": "https://ninjakiwi.com/profile/{username}",
-        "urlMain": "https://ninjakiwi.com/",
-        "username_claimed": "Kyruko",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "NintendoLife": {
         "url": "https://www.nintendolife.com/users/{username}",
         "urlMain": "https://www.nintendolife.com/",
         "username_claimed": "goku",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "NotABug.org": {
-        "url": "https://notabug.org/{username}",
-        "urlMain": "https://notabug.org/",
-        "urlProbe": "https://notabug.org/{}/followers",
-        "username_claimed": "red",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "OpenStreetMap": {
@@ -29016,42 +28731,10 @@
         "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "Opensource": {
-        "url": "https://opensource.com/users/{username}",
-        "urlMain": "https://opensource.com/",
-        "username_claimed": "red",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "RuneScape": {
-        "regexCheck": "^(?! )[\\w -]{1,12}(?<! )$",
-        "url": "https://apps.runescape.com/runemetrics/app/overview/player/{username}",
-        "urlMain": "https://www.runescape.com/",
-        "urlProbe": "https://apps.runescape.com/runemetrics/profile/profile?user={}",
-        "username_claimed": "L33",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "SWAPD": {
-        "url": "https://swapd.co/u/{username}",
-        "urlMain": "https://swapd.co/",
-        "username_claimed": "swapd",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "Shpock": {
         "url": "https://www.shpock.com/shop/{username}/items",
         "urlMain": "https://www.shpock.com/",
         "username_claimed": "user",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Sketchfab": {
-        "url": "https://sketchfab.com/{username}",
-        "urlMain": "https://sketchfab.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "SmugMug": {
-        "url": "https://{username}.smugmug.com",
-        "urlMain": "https://smugmug.com",
-        "username_claimed": "winchester",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Snapchat": {
@@ -29062,62 +28745,10 @@
         "username_claimed": "teamsnapchat",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "SoylentNews": {
-        "url": "https://soylentnews.org/~{username}",
-        "urlMain": "https://soylentnews.org",
-        "username_claimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "SportsRU": {
-        "url": "https://www.sports.ru/profile/{username}/",
-        "urlMain": "https://www.sports.ru/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "SteamGroup": {
-        "url": "https://steamcommunity.com/groups/{username}",
-        "urlMain": "https://steamcommunity.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "TETR.IO": {
-        "url": "https://ch.tetr.io/u/{username}",
-        "urlMain": "https://tetr.io",
-        "urlProbe": "https://ch.tetr.io/api/users/{}",
-        "username_claimed": "osk",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "TLDR Legal": {
-        "regexCheck": "^[a-zA-Z0-9]{3,20}$",
-        "url": "https://tldrlegal.com/users/{username}/",
-        "urlMain": "https://tldrlegal.com/",
-        "username_claimed": "kevin",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "TRAKTRAIN": {
-        "url": "https://traktrain.com/{username}",
-        "urlMain": "https://traktrain.com/",
-        "username_claimed": "traktrain",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "Tenor": {
-        "regexCheck": "^[A-Za-z0-9_]{2,32}$",
-        "url": "https://tenor.com/users/{username}",
-        "urlMain": "https://tenor.com/",
-        "username_claimed": "red",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "TnAFlix": {
         "url": "https://www.tnaflix.com/profile/{username}",
         "urlMain": "https://www.tnaflix.com/",
         "username_claimed": "hacker",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "TrashboxRU": {
-        "regexCheck": "^[A-Za-z0-9_-]{3,16}$",
-        "url": "https://trashbox.ru/users/{username}",
-        "urlMain": "https://trashbox.ru/",
-        "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Trawelling": {
@@ -29130,13 +28761,6 @@
         "url": "https://tweakers.net/gallery/{username}",
         "urlMain": "https://tweakers.net",
         "username_claimed": "femme",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "WICG Forum": {
-        "regexCheck": "^(?![.-])[a-zA-Z0-9_.-]{3,20}$",
-        "url": "https://discourse.wicg.io/u/{username}/summary",
-        "urlMain": "https://discourse.wicg.io/",
-        "username_claimed": "stefano",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "Weblate": {
@@ -29152,65 +28776,9 @@
         "username_claimed": "unico",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "babyRU": {
-        "url": "https://www.baby.ru/u/{username}/",
-        "urlMain": "https://www.baby.ru/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "babyblogRU": {
-        "errorUrl": "https://www.babyblog.ru/",
-        "url": "https://www.babyblog.ru/user/{username}",
-        "urlMain": "https://www.babyblog.ru/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "d3RU": {
-        "url": "https://d3.ru/user/{username}/posts",
-        "urlMain": "https://d3.ru/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "datingRU": {
-        "url": "http://dating.ru/{username}",
-        "urlMain": "http://dating.ru",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "freecodecamp": {
-        "url": "https://www.freecodecamp.org/{username}",
-        "urlMain": "https://www.freecodecamp.org/",
-        "urlProbe": "https://api.freecodecamp.org/api/users/get-public-profile?username={}",
-        "username_claimed": "naveennamani",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "furaffinity": {
-        "url": "https://www.furaffinity.net/user/{username}",
-        "urlMain": "https://www.furaffinity.net",
-        "username_claimed": "jesus",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "habr": {
-        "url": "https://habr.com/ru/users/{username}",
-        "urlMain": "https://habr.com/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "hackster": {
         "url": "https://www.hackster.io/{username}",
         "urlMain": "https://www.hackster.io",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "irecommend": {
-        "url": "https://irecommend.ru/users/{username}",
-        "urlMain": "https://irecommend.ru/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "jbzd.com.pl": {
-        "url": "https://jbzd.com.pl/uzytkownik/{username}",
-        "urlMain": "https://jbzd.com.pl/",
         "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
@@ -29220,79 +28788,10 @@
         "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
-      "minds": {
-        "url": "https://www.minds.com/{username}/",
-        "urlMain": "https://www.minds.com",
-        "urlProbe": "https://www.minds.com/api/v3/register/validate?username={}",
-        "username_claimed": "john",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "moikrug": {
-        "url": "https://moikrug.ru/{username}",
-        "urlMain": "https://moikrug.ru/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "nnRU": {
-        "regexCheck": "^[a-zA-Z0-9@_-]$",
-        "url": "https://{username}.www.nn.ru/",
-        "urlMain": "https://www.nn.ru/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "npm": {
-        "url": "https://www.npmjs.com/~{username}",
-        "urlMain": "https://www.npmjs.com/",
-        "username_claimed": "kennethsweezy",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "phpRU": {
-        "url": "https://php.ru/forum/members/?username={username}",
-        "urlMain": "https://php.ru/forum/",
-        "username_claimed": "apple",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "satsisRU": {
-        "url": "https://satsis.info/user/{username}",
-        "urlMain": "https://satsis.info/",
-        "username_claimed": "red",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "sessionize": {
-        "url": "https://sessionize.com/{username}",
-        "urlMain": "https://sessionize.com/",
-        "username_claimed": "jason-mayes",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
       "toster": {
         "url": "https://www.toster.ru/user/{username}/answers",
         "urlMain": "https://www.toster.ru/",
         "username_claimed": "adam",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "uid": {
-        "url": "http://uid.me/{username}",
-        "urlMain": "https://uid.me/",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "wiki.vg": {
-        "url": "https://wiki.vg/User:{username}",
-        "urlMain": "https://wiki.vg/",
-        "username_claimed": "Auri",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "wykop.pl": {
-        "regexCheck": "[a-z0-9-_]{4,35}",
-        "url": "https://www.wykop.pl/ludzie/{username}",
-        "urlMain": "https://wykop.pl",
-        "username_claimed": "janusz-nowak",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "znanylekarz.pl": {
-        "url": "https://www.znanylekarz.pl/{username}",
-        "urlMain": "https://znanylekarz.pl",
-        "username_claimed": "janusz-nowak",
         "usernameUnclaimed": "noonewouldeverusethis7"
       }
     },
