@@ -18336,12 +18336,6 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin"
       },
-      "avon-registry.com.ua": {
-        "engine": "uCoz",
-        "urlMain": "http://avon-registry.com.ua",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
       "vracing.3dn.ru": {
         "engine": "uCoz",
         "urlMain": "http://vracing.3dn.ru",
@@ -18351,12 +18345,7 @@
           "ru"
         ]
       },
-      "doska.hashmalay.co.il": {
-        "engine": "uCoz",
-        "urlMain": "http://doska.hashmalay.co.il",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "john"
-      },
+      
       "hitechnic.org": {
         "disabled": true,
         "engine": "uCoz",
@@ -18467,12 +18456,6 @@
       "aquamen.ru": {
         "engine": "uCoz",
         "urlMain": "http://aquamen.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
-      },
-      "kam-mamochka.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://kam-mamochka.ru",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin"
       },
@@ -18597,12 +18580,6 @@
         "urlMain": "http://student-telecom.ru",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin"
-      },
-      "kliki-doma.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://kliki-doma.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "god"
       },
       "christian-video.3dn.ru": {
         "engine": "uCoz",
@@ -18730,12 +18707,6 @@
           "classified",
           "ua"
         ]
-      },
-      "vfarte.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://vfarte.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
       },
       "uface.at.ua": {
         "engine": "uCoz",
@@ -18974,23 +18945,11 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "alex"
       },
-      "app.clan.su": {
-        "engine": "uCoz",
-        "urlMain": "http://app.clan.su",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
       "electroprom.my1.ru": {
         "engine": "uCoz",
         "urlMain": "http://electroprom.my1.ru",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin"
-      },
-      "nicefriendcats.ucoz.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://nicefriendcats.ucoz.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
       },
       "dcsoft.ucoz.ru": {
         "engine": "uCoz",
@@ -19010,12 +18969,6 @@
         "urlMain": "http://englishinfo.ru",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "alex"
-      },
-      "vl-dimir.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://vl-dimir.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
       },
       "litgeroy.ucoz.net": {
         "tags": [
@@ -19061,26 +19014,11 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin"
       },
-      "dok17.ucoz.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://dok17.ucoz.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
-      },
       "mamasuper.ru": {
         "engine": "uCoz",
         "urlMain": "http://mamasuper.ru",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin",
-        "tags": [
-          "ru"
-        ]
-      },
-      "cadaverzian.ucoz.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://cadaverzian.ucoz.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex",
         "tags": [
           "ru"
         ]
@@ -19091,12 +19029,6 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin",
         "alexaRank": 8999453
-      },
-      "reklama-x.at.ua": {
-        "engine": "uCoz",
-        "urlMain": "http://reklama-x.at.ua",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
       },
       "rurip.ucoz.ru": {
         "disabled": true,
@@ -19118,41 +19050,11 @@
         "usernameClaimed": "alex",
         "alexaRank": 10841743
       },
-      "online-movies.3dn.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://online-movies.3dn.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
       "hamradio.at.ua": {
         "engine": "uCoz",
         "urlMain": "http://hamradio.at.ua",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "alex"
-      },
-      "lock.3dn.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://lock.3dn.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
-      "torworld.at.ua": {
-        "engine": "uCoz",
-        "urlMain": "http://torworld.at.ua",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
-      "myfootball-1.ucoz.ua": {
-        "engine": "uCoz",
-        "urlMain": "http://myfootball-1.ucoz.ua",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
-      },
-      "gadjet.moy.su": {
-        "engine": "uCoz",
-        "urlMain": "http://gadjet.moy.su",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
       },
       "artmilitaire.ru": {
         "engine": "uCoz",
@@ -19160,12 +19062,6 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin",
         "alexaRank": 8764926
-      },
-      "stop-nazi.at.ua": {
-        "engine": "uCoz",
-        "urlMain": "http://stop-nazi.at.ua",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
       },
       "velozone.ucoz.ua": {
         "engine": "uCoz",
@@ -19176,24 +19072,6 @@
       "chelentano.ucoz.ru": {
         "engine": "uCoz",
         "urlMain": "http://chelentano.ucoz.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
-      },
-      "osiris.at.ua": {
-        "engine": "uCoz",
-        "urlMain": "http://osiris.at.ua",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
-      "vch3469.3dn.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://vch3469.3dn.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
-      },
-      "sloboganec.at.ua": {
-        "engine": "uCoz",
-        "urlMain": "http://sloboganec.at.ua",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin"
       },
@@ -19219,27 +19097,9 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "alex"
       },
-      "nuzar.ucoz.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://nuzar.ucoz.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
-      "toys22.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://toys22.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "red"
-      },
       "sharzh-portret.ru": {
         "engine": "uCoz",
         "urlMain": "http://sharzh-portret.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
-      },
-      "ohorona.at.ua": {
-        "engine": "uCoz",
-        "urlMain": "http://ohorona.at.ua",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin"
       },
@@ -19255,18 +19115,6 @@
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "alex"
       },
-      "78-3.do.am": {
-        "engine": "uCoz",
-        "urlMain": "http://78-3.do.am",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
-      "uko.at.ua": {
-        "engine": "uCoz",
-        "urlMain": "http://uko.at.ua",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
       "faillyuboi.ucoz.ru": {
         "engine": "uCoz",
         "urlMain": "http://faillyuboi.ucoz.ru",
@@ -19279,18 +19127,6 @@
         "urlMain": "http://koshtoris.at.ua",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin"
-      },
-      "pio-bets.ucoz.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://pio-bets.ucoz.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
-      "clan-sg.ucoz.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://clan-sg.ucoz.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
       },
       "samsungmobile.pp.net.ua": {
         "tags": [
@@ -19329,22 +19165,10 @@
           "ua"
         ]
       },
-      "shansonportal.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://shansonportal.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
-      },
       "alikgor.at.ua": {
         "engine": "uCoz",
         "alexaRank": 8327078,
         "urlMain": "http://alikgor.at.ua",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
-      },
-      "diablocool.ucoz.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://diablocool.ucoz.ru",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "admin"
       },
@@ -19422,22 +19246,10 @@
           "ru"
         ]
       },
-      "kfir-zahav.ucoz.ru": {
-        "engine": "uCoz",
-        "urlMain": "http://kfir-zahav.ucoz.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
-      },
       "kadroviku.ru": {
         "engine": "uCoz",
         "alexaRank": 3541673,
         "urlMain": "http://kadroviku.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
-      "necromancers.clan.su": {
-        "engine": "uCoz",
-        "urlMain": "http://necromancers.clan.su",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "alex"
       },
@@ -19633,12 +19445,6 @@
       "baggi.ucoz.ru": {
         "engine": "uCoz",
         "urlMain": "http://baggi.ucoz.ru",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "alex"
-      },
-      "xn--90aybfeg.xn--p1ai": {
-        "engine": "uCoz",
-        "urlMain": "http://xn--90aybfeg.xn--p1ai",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "alex"
       },
@@ -20144,12 +19950,6 @@
         "urlMain": "http://nk-cs.ucoz.ru",
         "usernameUnclaimed": "noonewouldeverusethis7",
         "usernameClaimed": "alex"
-      },
-      "xn----7sbfejdvocrv7adem.xn--p1ai": {
-        "engine": "uCoz",
-        "urlMain": "http://xn----7sbfejdvocrv7adem.xn--p1ai",
-        "usernameUnclaimed": "noonewouldeverusethis7",
-        "usernameClaimed": "admin"
       },
       "religionlaw.ru": {
         "engine": "uCoz",
@@ -28774,18 +28574,6 @@
         "url": "https://community.wolfram.com/web/{username}/home",
         "urlMain": "https://community.wolfram.com/",
         "username_claimed": "unico",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "hackster": {
-        "url": "https://www.hackster.io/{username}",
-        "urlMain": "https://www.hackster.io",
-        "username_claimed": "blue",
-        "usernameUnclaimed": "noonewouldeverusethis7"
-      },
-      "livelib": {
-        "url": "https://www.livelib.ru/reader/{username}",
-        "urlMain": "https://www.livelib.ru/",
-        "username_claimed": "blue",
         "usernameUnclaimed": "noonewouldeverusethis7"
       },
       "toster": {
