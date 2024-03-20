@@ -14,7 +14,7 @@ id_type = "username"
 # top popular sites from the Maigret database
 # TOP_SITES_COUNT = 50
 # Maigret HTTP requests timeout
-TIMEOUT = 30
+TIMEOUT = 60
 
 def setup_logger(log_level, name):
     logger = logging.getLogger(name)
