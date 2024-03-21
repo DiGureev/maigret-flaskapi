@@ -34,14 +34,26 @@ async def maigret_search(username, top):
 
     if top == 100: 
         topKeys = top3000keys[0:100]
+        delKeys(topKeys)
     if top == 500: 
         topKeys = top3000keys[100:500]
+        delKeys(topKeys)
+    if top == 1000:
+        topKeys = top3000keys[500:1000]
+        delKeys(topKeys)
+    if top == 1500:
+        topKeys = top3000keys[1000:1500]
+        delKeys(topKeys)
+    if top == 2000:
+        topKeys = top3000keys[1500:2000] 
+        delKeys(topKeys)
+    if top == 2500:
+        topKeys = top3000keys[2000:2500]
+        delKeys(topKeys)
     if top == 3000:
         topKeys = top3000keys[2500:2630]
-    else:
-        topKeys = top3000keys[top - 500 : top]
-        
-    delKeys(topKeys)
+        delKeys(topKeys)
+    
 
     results = await maigret.search(username=username,
                                    site_dict=sites,
@@ -54,6 +66,7 @@ async def maigret_search(username, top):
     return results
 
 def generate_json_report(username: str, results: dict):
+    # is_report_per_line = report_type.startswith("ndjson")
     all_json = {}
 
     for sitename in results:
