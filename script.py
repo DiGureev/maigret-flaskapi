@@ -10,7 +10,7 @@ COOKIES_FILE = "cookies.txt"  # wget https://raw.githubusercontent.com/soxoj/mai
 id_type = "username"
 
 # Maigret HTTP requests timeout
-TIMEOUT = 60
+TIMEOUT = 200
 
 def setup_logger(log_level, name):
     logger = logging.getLogger(name)
