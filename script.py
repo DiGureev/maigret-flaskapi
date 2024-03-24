@@ -10,7 +10,7 @@ COOKIES_FILE = "cookies.txt"  # wget https://raw.githubusercontent.com/soxoj/mai
 id_type = "username"
 
 # Maigret HTTP requests timeout
-TIMEOUT = 200
+TIMEOUT = 30
 
 def setup_logger(log_level, name):
     logger = logging.getLogger(name)
@@ -22,7 +22,7 @@ async def maigret_search(username, top):
     logger = setup_logger(logging.WARNING, 'maigret')
     db = MaigretDatabase().load_from_path(MAIGRET_DB_FILE)
 
-    sites = db.ranked_sites_dict(top=3080)
+    sites = db.ranked_sites_dict()
     #retrieve all keys of the sites object
     top3000keys = list(sites.keys())
 
@@ -62,7 +62,6 @@ async def maigret_search(username, top):
                                    id_type=id_type,
                                    cookies=COOKIES_FILE,
                                    )
-    
     return results
 
 def generate_json_report(username: str, results: dict):
